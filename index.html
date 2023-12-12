@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link BootStrap Icons -->
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <title>narradopormulheres</title>
+  </head>
+
+  <body>
+    <!-- titulo principal -->
+
+    <div id="container">
+      <header>
+        <h1>Narrrado por mulheres</h1>
+
+        <ul>
+          <a href="#">
+            <li>Início</li>
+          </a>
+
+          <a href="sport.html" target="_self"><li>Esporte IFS</li></a>
+
+          <a href="women.html">
+            <li>Mulheres importantes</li>
+          </a>
+
+          <span>
+            <a href="#history"><li>História</li></a>
+          </span>
+
+          <span>
+            <a href="#team"><li>Sobre Nós</li></a>
+          </span>
+        </ul>
+
+        
+      <button class="bg-transparent btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <i class="bi bi-list" style="font-size: 2rem;"></i>
+    </button>
+                  
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header" >
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="menu-mobile">
+              <ul>
+                <a href="#">
+                  <li>Início</li>
+                </a>
+      
+                <a href="sport.html" target="_self"><li>Esporte IFS</li></a>
+      
+                <a href="women.html">
+                  <li>Mulheres importantes</li>
+                </a>
+      
+                <div class="btns">
+                  <span>
+                    <a href="#history"><li>História</li></a>
+                  </span>
+        
+                  <span>
+                    <a href="#team"><li>Sobre Nós</li></a>
+                  </span>
+                </div>
+              </ul>
+            </div>
+      </header>
+
+      <div class="cover">
+        <h1>
+          A história das mulheres no esporte feminino <br />
+          é uma prova da força, da perseverança e da habilidade das mulheres em
+          superar obstáculos e realizar seus sonhos. À medida que a sociedade
+          progrediu e as mentalidades evoluíram.
+        </h1>
+        <button>
+          <a href="#history"><h4>Ver história</h4></a>
+        </button>
+      </div>
+
+      <main>
+        <div class="carousel">
+          <div class="images" id="pricing">
+            <div class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/marta.jpg" alt="Image 1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/enriqueta.jpg" alt="Image 2" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/larissa.jpg" alt="Image 3" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/aida.jpg" alt="Image 4" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/maria.jpg" alt="Image 4" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/charlotte.jpg" alt="Image 4" />
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="history" id="history">
+          <h3>
+            A história das mulheres no esporte feminino é uma narrativa de
+            conquistas, desafios e superação ao longo dos séculos. Embora tenham
+            tentando quebrar constantemente barreiras para participar ativamente
+            em eventos esportivos, o ganho de espaço foi gradual e ,
+            infelizmente, demorado.
+          </h3>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Saiba mais
+          </button>
+
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>
+                Nos primórdios da história registrada, a participação das
+                mulheres no esporte era limitada e estereotipada. Na Grécia
+                antiga, por exemplo, os jogos olímpicos eram exclusivamente
+                masculino, mas as mulheres proibidas até de assistirem às
+                competições. Essas restrições refletiam asnormas sociais e
+                culturais da época, que viam o papel das mulheres como restrito
+                ao ambiente doméstico. No entanto, algumas evidências históricas
+                indicam que as mulheres encontraram maneiras de se envolver em
+                atividades esportivas. Por exemplo, na Roma Antiga, as mulheres
+                se envolviam em jogos de bola e exercícios físicos para manter a
+                saúde e a beleza. Foi somente no final do século XIX e início do
+                século XX que o movimento feminista e as mudanças culturais
+                começaram a abrir caminho para a participação das mulheres no
+                esporte. O surgimento de clubes e associações esportivas
+                exclusivamente femininas permitiu que as mulheres se reunissem e
+                competissem entre si. Ainda assim, muitos esportes permaneciam
+                inacessíveis para elas. A virada veio nos Jogos Olímpicos de
+                1900, em Paris, quando as mulheres foram autorizadas a competir
+                em cinco esportes: golfe, tênis, croquet, vela e equitação. Essa
+                inclusão gradual das mulheres no maior evento esportivo do mundo
+                foi um marco significativo para a igualdade de gênero no
+                esporte. Ao longo do século XX, as mulheres continuaram a lutar
+                por igualdade de oportunidades no esporte. A criação de
+                organizações femininas, como a Federação Internacional de
+                Esporte Feminino (FSFI) em 1921, e posteriormente a Associação
+                Internacional de Federações de Atletismo Feminino (IAWAF) em
+                1928, ajudou a promover a igualdade no esporte feminino. No
+                entanto, ainda havia obstáculos significativos a serem
+                superados. Por exemplo, até a década de 1960, as mulheres
+                enfrentavam restrições em relação à duração e intensidade da
+                competição esportiva, além de limitações financeiras e de
+                visibilidade. Contudo, a persistência e a determinação das
+                mulheres no rompimento dessas barreiras resultaram em conquistas
+                significativas. Um exemplo marcante ocorreu em 1972, quando os
+                Jogos Olímpicos de Munique viram a introdução do basquete
+                feminino e do handebol feminino como esportes olímpicos. Esse
+                evento histórico abriu portas para a igualdade de gênero no
+                esporte de alto nível e influenciou uma mudança gradual em
+                outras áreas esportivas. Desde então, o esporte feminino tem
+                visto um crescimento exponencial em todo o mundo, com mais
+                mulheres competindo em diversos esportes em todos os níveis,
+                desde o amador até o profissional. As mulheres conquistaram
+                ouro, prata e bronze nas competições olímpicas e estabeleceram
+                recordes mundiais em várias modalidades esportivasHoje, existe
+                um movimento global em prol da igualdade de gênero no esporte,
+                com iniciativas para garantir salários iguais, patrocínios
+                justos e visibilidade adequada para as atletas mulheres. Além
+                disso, a inclusão de categorias esportivas femininas em eventos
+                importantes tem se tornado uma prioridade, demonstrando um
+                compromisso contínuo para garantir a igualdade no esporte.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team" id="team">
+          <section class="text">
+            Adriely Santos Silva- @adrii_silvv Meu nome é Adriely. Tenho 17
+            anos, curso o 3° Redes de Computadores no IFS (Instituto Federal de
+            Sergipe). Gosto de ler, assistir  e jogar, principalmente futebol.
+          </section>
+
+          <section>
+            <div class="image">
+              <img src="./assets/images/4.jpg" alt="" />
+            </div>
+          </section>
+        </div>
+        <div class="team">
+          <section class="text">
+            Vitória Gonçalves Nascimento- @vitoria_nsc_ Oi meu nome é Vitória,
+            tenho 17 anos, estou no 3° ano do curso de Redes de Computadores
+            pelo IFS ( INSTITUTO FEDERAL DE SERGIPE), gosto de assistir alguns
+            jogos online, ler livros históricos, assisto muitos doramas e
+            animações, desenho e vejo muitas muitas curiosidades científica.
+          </section>
+
+          <section>
+            <div class="image">
+              <img src="./assets/images/3.jpg" alt="" />
+            </div>
+          </section>
+        </div>
+        <div class="team">
+          <section class="text">
+            Flaviane Fontes Carvalho- @flaviane_fontes_  Olá, meu nome é
+            Flaviane, tenho 17 anos e curso o 3° ano em Redes de computadores
+            pelo IFS ( INSTITUTO FEDERAL DE SERGIPE ), tenho alguns Hobbies,
+            entre eles está: assistir séries, ouvir músicas e ler, além disso
+            também gosto bastante de assistir jogos, o meu esporte favorito
+            provavelmente é o vôlei, pois é o que eu mais conheço, mesmo jogando
+            mal gosto e me  divirto enquanto jogo.
+          </section>
+
+          <section>
+            <div class="image">
+              <img src="./assets/images/2.png" alt="" />
+            </div>
+          </section>
+        </div>
+        <div class="team">
+          <section class="text">
+            Ingrid Dos Santos silva- @_indviih_000 Olá, meu nome é Ingrid, tenho
+            19 anos, curso 3° ano em Redes de computadores pelo IFS (INSTITUTO
+            FEDERAL DE SERGIPE) tenho vários Hobbies, um deles é o esporte,
+            gosto bastante de prática diversos deles como: vôlei, queimado,
+            natação, futebol e entre outros à prática de atividades física faz
+            me sentir confortável e forte tanto fisicamente quanto mentalmente.
+          </section>
+
+          <section>
+            <div class="image">
+              <img src="./assets/images/1.jpg" alt="" />
+            </div>
+          </section>
+        </div>
+
+        <div class="about">
+          <div class="ifs">
+            <h2>
+              Por que você deve participar <br />
+              dos esportes do ifs?
+            </h2>
+
+            <ul>
+              <li><span>1</span>Espaço amplo</li>
+              <li><span>2</span> Ambiente interativo</li>
+              <li><span>3</span> Variedade de esportes</li>
+            </ul>
+          </div>
+
+          <div class="description">
+            <h2>Sobre</h2>
+            <p>
+              O Instituto Federal de Sergipe (IFS) não apenas se destaca por sua
+              excelência acadêmica, mas também por promover um ambiente saudável
+              e equilibrado através do esporte e do lazer. No que diz respeito
+              ao esporte, o IFS valoriza a prática esportiva como meio de
+              promoção da saúde e bem-estar, disponibilizando instalações
+              modernas, como quadras poliesportivas e campos, para incentivar a
+              participação em diversas modalidades esportivas. O instituto
+              também promove campeonatos internos, torneios e eventos
+              esportivos, fomentando o espírito de equipe, competitividade
+              saudável e a importância da atividade física regular. Além disso,
+              o IFS oferece momentos de descontração e interação social através
+              de atividades de lazer, como feiras culturais, festivais,
+              exposições e apresentações artísticas. Esses eventos contribuem
+              para estimular a expressão criativa e fortalecer os vínculos entre
+              os membros da comunidade acadêmica. A abordagem holística do
+              instituto visa não apenas proporcionar uma educação de qualidade,
+              mas também criar um ambiente onde o desenvolvimento pessoal,
+              social e físico esteja intrinsecamente ligado ao processo
+              educacional, preparando os estudantes para os desafios da vida
+              acadêmica e profissional.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="bg-footer"></div>
+
+        <div class="members">
+          <h3>Desenvolvido por</h3>
+
+          <p>Ingrid Dos Santos Silva</p>
+          <p>Adriely Santos Silva</p>
+          <p>Vitória Gonçalves Nascimento</p>
+          <p>Flaviane Fontes Carvalho</p>
+        </div>
+
+        <div class="social-networks">
+          <p>Constate-nos: <a href="#"><i class="bi bi-instagram"></i></a></p>
+        </div>
+
+        <div class="copy">
+          <p><i class="bi bi-c-circle-fill"></i>Todos os direitos reservados</p>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+
+        //   // Set up automatic sliding
+        //   setInterval(function () {
+        //     swiper.slideNext(); // Move to the next slide
+        //   }, 1000); // Interval of 1 second
+      });
+    </script>
+  </body>
+</html>
