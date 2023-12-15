@@ -22,7 +22,13 @@ main h1 {
 }
 
 #carousel {
-  width: 80%;
+  width: 500px;
+}
+
+@media(max-width:550px){
+  #carousel {
+    width: 300px;
+  }
 }
 
 #carousel > .carousel-inner > .carousel-item > img {
